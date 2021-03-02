@@ -1931,6 +1931,23 @@ input, select, textarea {
 		}
 
 /* Main */
+	.skills {
+		margin-right: 20px;
+	}
+
+	.skills-icons {
+		font-size: 100px;
+	}
+
+	.skills-section {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.skills-text {
+		font-weight: bold;
+		text-align: center;
+	}
 
 	.main {
 		display: -moz-flex;
