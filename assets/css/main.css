@@ -583,6 +583,19 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	.intro-img {
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		object-fit: cover;
+		padding: 5px;
+		border: 1px solid white;
+	}
+
+	.intro-name {
+		font-size: 10px;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out;
@@ -1956,7 +1969,7 @@ input, select, textarea {
 			padding: 3em 0 3em 0;
 		}
 
-			.main.style1 h2 {
+			.main.style1 h2{
 				font-size: 4.25em;
 				line-height: 1em;
 			}
