@@ -112,12 +112,28 @@ input, select, textarea {
 /* Type */
 
 	.intro-img {
-		height: 300px;
-		width: 300px;
+		height: 250px;
+		width: 250px;
 		border-radius: 50%;
 		padding: 5px;
 		border: 1px solid white;
 		object-fit: cover;
+	}
+
+	.border-line {
+		border-bottom: 3px solid white;
+	}
+
+	.project-text {
+		text-align: center;
+	}
+
+	.project-gif {
+		display:block;
+		height: 300px;
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	html {
@@ -1555,7 +1571,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(55, 57, 59, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
