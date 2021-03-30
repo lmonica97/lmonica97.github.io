@@ -111,6 +111,17 @@ input, select, textarea {
 
 /* Type */
 
+	.contact-list {
+		list-style: none;
+	}
+
+	.text {
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left: 10px;
+		font-size: 25px;
+		font-weight: 300;
+	}
+
 	.intro-img {
 		height: 250px;
 		width: 250px;
@@ -671,7 +682,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
+			background-image: url("../../images/008\ Rainy\ Ashville.png.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1164,7 +1175,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/008\ Rainy\ Ashville.png.png");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1528,6 +1539,9 @@ input, select, textarea {
 
 /* Main */
 
+	.project-list {
+		text-decoration: none;
+	}
 	#main {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
